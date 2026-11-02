@@ -1,0 +1,328 @@
+{
+  "schemaVersion": "1.0",
+  "lessonId": "L001",
+  "contentVersion": "1.0.1",
+  "reportedGeneratedAudioCount": 8,
+  "generatedAudioCount": 8,
+  "integratedAudioCount": 8,
+  "expectedAudioCount": 8,
+  "productionStatus": "integrated_technical_validation_and_browser_playback_passed",
+  "sourceVoice": "Lucilene – Clear & Trustworthy",
+  "humanApproval": {
+    "status": "approved_by_nicolas",
+    "scope": [
+      "pronuncia_pt_br",
+      "sotaque_brasileiro",
+      "naturalidade",
+      "clareza",
+      "velocidade",
+      "pausas",
+      "adequacao_adulta",
+      "inteligibilidade",
+      "audio_integral"
+    ],
+    "recordedFromUserConfirmation": "2026-11-01"
+  },
+  "runtimeTts": false,
+  "voices": {
+    "ana": "Personagem brasileira adulta; voz A se houver duas pessoas.",
+    "mimi": "Papel de Mimi lido por narrador brasileiro adulto; não é gravação nem imitação da voz real de Mimi."
+  },
+  "singleNarratorAllowed": true,
+  "technicalSpecification": {
+    "codec": "MP3",
+    "sampleRateHz": 44100,
+    "channels": 1,
+    "bitRateKbps": 128,
+    "speedVersions": [
+      1
+    ],
+    "interfacePlaybackRates": [
+      0.8,
+      1
+    ],
+    "noMusic": true,
+    "noSpeedPressure": true,
+    "editingMaster": "WAV/FLAC ou original, nunca sucessivas recompressões MP3",
+    "loudnessGuideline": "Volume de fala uniforme entre trechos, sem clipping; alvo de projeto aproximado −19 LUFS mono e pico verdadeiro ≤ −1 dBTP quando medidos, sem substituir escuta humana."
+  },
+  "files": [
+    {
+      "audioId": "L001-A00",
+      "fileName": "L001-integral.mp3",
+      "segments": [
+        {
+          "speakerId": "ana",
+          "text": "Oi! Eu me chamo Ana.",
+          "lineId": "L001-D01"
+        },
+        {
+          "speakerId": "mimi",
+          "text": "Oi! Eu me chamo Mimi.",
+          "lineId": "L001-D02"
+        },
+        {
+          "speakerId": "ana",
+          "text": "Eu moro em São Paulo. E você?",
+          "lineId": "L001-D03"
+        },
+        {
+          "speakerId": "mimi",
+          "text": "Eu moro em Santiago.",
+          "lineId": "L001-D04"
+        }
+      ],
+      "purpose": "Diálogo integral; segunda escuta; compreensão contextual",
+      "pauseAfterSegmentMs": [
+        600,
+        600,
+        700,
+        500
+      ],
+      "path": "audio/L001/1.0.0/L001-integral.mp3",
+      "status": "integrated",
+      "technicalApproval": "approved",
+      "humanReview": "approved_by_nicolas",
+      "language": "pt-BR",
+      "durationSeconds": 7.837,
+      "sha256": "812fbbe3bd3beb1a46f1be50407567390a3163ca10c0204575afacf1e8454779",
+      "sourceVoice": "Lucilene – Clear & Trustworthy",
+      "narratorPermission": "not_documented_in_workspace",
+      "rate": "Conversacional claro; aproximadamente 110–140 palavras/minuto como referência flexível, sem metrônomo.",
+      "leadSilenceMs": 200,
+      "tailSilenceMs": 400,
+      "sizeBytes": 125849,
+      "actualFormat": "audio/mpeg; codec=mp3",
+      "decodeStatus": "passed",
+      "playbackInBrowser": "passed_chrome_playing_and_ended",
+      "timingClarification": "Para integral, pausas após os três primeiros segmentos são internas; o valor do último segmento define a cauda final, sem somar tailSilenceMs. Trechos isolados usam somente leadSilenceMs e tailSilenceMs, sem somar pauseAfterSegmentMs."
+    },
+    {
+      "audioId": "L001-A01",
+      "fileName": "L001-01.mp3",
+      "segments": [
+        {
+          "speakerId": "ana",
+          "text": "Oi! Eu me chamo Ana.",
+          "lineId": "L001-D01"
+        }
+      ],
+      "purpose": "Fala individual do diálogo: L001-D01",
+      "pauseAfterSegmentMs": [
+        400
+      ],
+      "path": "audio/L001/1.0.0/L001-01.mp3",
+      "status": "integrated",
+      "technicalApproval": "approved",
+      "humanReview": "approved_by_nicolas",
+      "language": "pt-BR",
+      "durationSeconds": 1.985,
+      "sha256": "b7b405bd242e250d473b859c2d9f7f83fee22ccfe6856906754f83f3fc6cb3c4",
+      "sourceVoice": "Lucilene – Clear & Trustworthy",
+      "narratorPermission": "not_documented_in_workspace",
+      "rate": "Conversacional claro; aproximadamente 110–140 palavras/minuto como referência flexível, sem metrônomo.",
+      "leadSilenceMs": 200,
+      "tailSilenceMs": 400,
+      "sizeBytes": 32226,
+      "actualFormat": "audio/mpeg; codec=mp3",
+      "decodeStatus": "passed",
+      "playbackInBrowser": "passed_chrome_playing_and_ended",
+      "timingClarification": "Para integral, pausas após os três primeiros segmentos são internas; o valor do último segmento define a cauda final, sem somar tailSilenceMs. Trechos isolados usam somente leadSilenceMs e tailSilenceMs, sem somar pauseAfterSegmentMs."
+    },
+    {
+      "audioId": "L001-A02",
+      "fileName": "L001-02.mp3",
+      "segments": [
+        {
+          "speakerId": "mimi",
+          "text": "Oi! Eu me chamo Mimi.",
+          "lineId": "L001-D02"
+        }
+      ],
+      "purpose": "Fala individual do diálogo: L001-D02",
+      "pauseAfterSegmentMs": [
+        400
+      ],
+      "path": "audio/L001/1.0.0/L001-02.mp3",
+      "status": "integrated",
+      "technicalApproval": "approved",
+      "humanReview": "approved_by_nicolas",
+      "language": "pt-BR",
+      "durationSeconds": 2.429,
+      "sha256": "dc965c799465fdd3bae9f03e2a3348e2721c9ce76b473749c5077166dbc05b1c",
+      "sourceVoice": "Lucilene – Clear & Trustworthy",
+      "narratorPermission": "not_documented_in_workspace",
+      "rate": "Conversacional claro; aproximadamente 110–140 palavras/minuto como referência flexível, sem metrônomo.",
+      "leadSilenceMs": 200,
+      "tailSilenceMs": 400,
+      "sizeBytes": 39332,
+      "actualFormat": "audio/mpeg; codec=mp3",
+      "decodeStatus": "passed",
+      "playbackInBrowser": "passed_chrome_playing_and_ended",
+      "timingClarification": "Para integral, pausas após os três primeiros segmentos são internas; o valor do último segmento define a cauda final, sem somar tailSilenceMs. Trechos isolados usam somente leadSilenceMs e tailSilenceMs, sem somar pauseAfterSegmentMs."
+    },
+    {
+      "audioId": "L001-A03",
+      "fileName": "L001-03.mp3",
+      "segments": [
+        {
+          "speakerId": "ana",
+          "text": "Eu moro em São Paulo. E você?",
+          "lineId": "L001-D03"
+        }
+      ],
+      "purpose": "Fala individual do diálogo: L001-D03",
+      "pauseAfterSegmentMs": [
+        400
+      ],
+      "path": "audio/L001/1.0.0/L001-03.mp3",
+      "status": "integrated",
+      "technicalApproval": "approved",
+      "humanReview": "approved_by_nicolas",
+      "language": "pt-BR",
+      "durationSeconds": 2.22,
+      "sha256": "cefad10e206ff471e6e0fd6167cae4a02f059d44383fa153a0fe8c3d681b44b3",
+      "sourceVoice": "Lucilene – Clear & Trustworthy",
+      "narratorPermission": "not_documented_in_workspace",
+      "rate": "Conversacional claro; aproximadamente 110–140 palavras/minuto como referência flexível, sem metrônomo.",
+      "leadSilenceMs": 200,
+      "tailSilenceMs": 400,
+      "sizeBytes": 35988,
+      "actualFormat": "audio/mpeg; codec=mp3",
+      "decodeStatus": "passed",
+      "playbackInBrowser": "passed_chrome_playing_and_ended",
+      "timingClarification": "Para integral, pausas após os três primeiros segmentos são internas; o valor do último segmento define a cauda final, sem somar tailSilenceMs. Trechos isolados usam somente leadSilenceMs e tailSilenceMs, sem somar pauseAfterSegmentMs."
+    },
+    {
+      "audioId": "L001-A04",
+      "fileName": "L001-04.mp3",
+      "segments": [
+        {
+          "speakerId": "mimi",
+          "text": "Eu moro em Santiago.",
+          "lineId": "L001-D04"
+        }
+      ],
+      "purpose": "Fala individual; A04 também é modelo de I002",
+      "pauseAfterSegmentMs": [
+        400
+      ],
+      "path": "audio/L001/1.0.0/L001-04.mp3",
+      "status": "integrated",
+      "technicalApproval": "approved",
+      "humanReview": "approved_by_nicolas",
+      "language": "pt-BR",
+      "durationSeconds": 1.802,
+      "sha256": "6d94cbb6642ffdd10c5a2ead6a56770159e34ad5b333b17c74f2cee26f355eb1",
+      "sourceVoice": "Lucilene – Clear & Trustworthy",
+      "narratorPermission": "not_documented_in_workspace",
+      "rate": "Conversacional claro; aproximadamente 110–140 palavras/minuto como referência flexível, sem metrônomo.",
+      "leadSilenceMs": 200,
+      "tailSilenceMs": 400,
+      "sizeBytes": 29301,
+      "actualFormat": "audio/mpeg; codec=mp3",
+      "decodeStatus": "passed",
+      "playbackInBrowser": "passed_chrome_playing_and_ended",
+      "timingClarification": "Para integral, pausas após os três primeiros segmentos são internas; o valor do último segmento define a cauda final, sem somar tailSilenceMs. Trechos isolados usam somente leadSilenceMs e tailSilenceMs, sem somar pauseAfterSegmentMs."
+    },
+    {
+      "audioId": "L001-A05",
+      "fileName": "L001-modelo-I001.mp3",
+      "segments": [
+        {
+          "speakerId": "mimi",
+          "text": "Eu me chamo Mimi.",
+          "lineId": null
+        }
+      ],
+      "purpose": "Modelo de I001; reconhecimento e revisões",
+      "pauseAfterSegmentMs": [
+        400
+      ],
+      "path": "audio/L001/1.0.0/L001-modelo-I001.mp3",
+      "status": "integrated",
+      "technicalApproval": "approved",
+      "humanReview": "approved_by_nicolas",
+      "language": "pt-BR",
+      "durationSeconds": 1.384,
+      "sha256": "ebd85264248cf6436adb0f84e0db34fdb8f53aaee29da417c70a5f9dd2662afa",
+      "sourceVoice": "Lucilene – Clear & Trustworthy",
+      "narratorPermission": "not_documented_in_workspace",
+      "rate": "Conversacional claro; aproximadamente 110–140 palavras/minuto como referência flexível, sem metrônomo.",
+      "leadSilenceMs": 200,
+      "tailSilenceMs": 400,
+      "sizeBytes": 22613,
+      "actualFormat": "audio/mpeg; codec=mp3",
+      "decodeStatus": "passed",
+      "playbackInBrowser": "passed_chrome_playing_and_ended",
+      "timingClarification": "Para integral, pausas após os três primeiros segmentos são internas; o valor do último segmento define a cauda final, sem somar tailSilenceMs. Trechos isolados usam somente leadSilenceMs e tailSilenceMs, sem somar pauseAfterSegmentMs."
+    },
+    {
+      "audioId": "L001-A06",
+      "fileName": "L001-revisao-nome-Ana.mp3",
+      "segments": [
+        {
+          "speakerId": "ana",
+          "text": "Eu me chamo Ana.",
+          "lineId": null
+        }
+      ],
+      "purpose": "Reconhecimento e revisões de I001",
+      "pauseAfterSegmentMs": [
+        400
+      ],
+      "path": "audio/L001/1.0.0/L001-revisao-nome-Ana.mp3",
+      "status": "integrated",
+      "technicalApproval": "approved",
+      "humanReview": "approved_by_nicolas",
+      "language": "pt-BR",
+      "durationSeconds": 1.646,
+      "sha256": "898c9fe6bbbb19ea6d94d910153a4b982d2f50d60a4a6e563ce5ca38a3944f38",
+      "sourceVoice": "Lucilene – Clear & Trustworthy",
+      "narratorPermission": "not_documented_in_workspace",
+      "rate": "Conversacional claro; aproximadamente 110–140 palavras/minuto como referência flexível, sem metrônomo.",
+      "leadSilenceMs": 200,
+      "tailSilenceMs": 400,
+      "sizeBytes": 26793,
+      "actualFormat": "audio/mpeg; codec=mp3",
+      "decodeStatus": "passed",
+      "playbackInBrowser": "passed_chrome_playing_and_ended",
+      "timingClarification": "Para integral, pausas após os três primeiros segmentos são internas; o valor do último segmento define a cauda final, sem somar tailSilenceMs. Trechos isolados usam somente leadSilenceMs e tailSilenceMs, sem somar pauseAfterSegmentMs."
+    },
+    {
+      "audioId": "L001-A07",
+      "fileName": "L001-revisao-moro-Sao-Paulo.mp3",
+      "segments": [
+        {
+          "speakerId": "ana",
+          "text": "Eu moro em São Paulo.",
+          "lineId": null
+        }
+      ],
+      "purpose": "Reconhecimento e revisões de I002",
+      "pauseAfterSegmentMs": [
+        400
+      ],
+      "path": "audio/L001/1.0.0/L001-revisao-moro-Sao-Paulo.mp3",
+      "status": "integrated",
+      "technicalApproval": "approved",
+      "humanReview": "approved_by_nicolas",
+      "language": "pt-BR",
+      "durationSeconds": 2.038,
+      "sha256": "9fbf8ba8c017f8f91b9dd6bbacf47f98fac73e832d9de830d8aec80e0255ef5b",
+      "sourceVoice": "Lucilene – Clear & Trustworthy",
+      "narratorPermission": "not_documented_in_workspace",
+      "rate": "Conversacional claro; aproximadamente 110–140 palavras/minuto como referência flexível, sem metrônomo.",
+      "leadSilenceMs": 200,
+      "tailSilenceMs": 400,
+      "sizeBytes": 33062,
+      "actualFormat": "audio/mpeg; codec=mp3",
+      "decodeStatus": "passed",
+      "playbackInBrowser": "passed_chrome_playing_and_ended",
+      "timingClarification": "Para integral, pausas após os três primeiros segmentos são internas; o valor do último segmento define a cauda final, sem somar tailSilenceMs. Trechos isolados usam somente leadSilenceMs e tailSilenceMs, sem somar pauseAfterSegmentMs."
+    }
+  ],
+  "editorialPatch": "Gate 2B: metadados/contrato técnico corrigidos; texto PT/FR, itens e respostas preservados.",
+  "mediaVersion": "1.0.0",
+  "technicalValidationAt": "2026-11-02T03:16:14.109Z"
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0",
+  "lessonId": "L001",
+  "status": "specified_not_implemented",
+  "steps": [
+    {
+      "stepId": "welcome",
+      "labelFr": "Votre première leçon",
+      "audioIds": []
+    },
+    {
+      "stepId": "listen1",
+      "labelFr": "Écouter la conversation",
+      "audioIds": [
+        "L001-A00"
+      ]
+    },
+    {
+      "stepId": "listen2",
+      "labelFr": "Réécouter avec le texte",
+      "audioIds": [
+        "L001-A00"
+      ]
+    },
+    {
+      "stepId": "targets",
+      "labelFr": "Deux expressions pour aujourd’hui",
+      "audioIds": [
+        "L001-A05",
+        "L001-A04"
+      ]
+    },
+    {
+      "stepId": "recognition",
+      "labelFr": "Reconnaître une expression",
+      "audioIds": [
+        "L001-A06",
+        "L001-A07"
+      ],
+      "activityId": "L001-REC01"
+    },
+    {
+      "stepId": "comprehension",
+      "labelFr": "Comprendre la conversation",
+      "audioIds": [
+        "L001-A00"
+      ],
+      "activityId": "L001-COMP01"
+    },
+    {
+      "stepId": "retrieval",
+      "labelFr": "Essayer de parler",
+      "audioIds": [
+        "L001-A05",
+        "L001-A04"
+      ],
+      "activityId": "L001-RET01"
+    },
+    {
+      "stepId": "completion",
+      "labelFr": "Terminer la leçon",
+      "audioIds": []
+    }
+  ],
+  "resume": "Última etapa e respostas/condições persistidas; nunca limpar pista ao reabrir.",
+  "endEvent": "lesson_completed_explicit",
+  "completionAllowsSkippedActivities": true,
+  "repeatCompletionDoesNotResetSchedule": true,
+  "noAutoPlay": true,
+  "noTimers": true,
+  "audioFailure": "Não inventar reprodução ou compreensão; oferecer retentativa, nunca marcar aula pronta sem mídia aprovada.",
+  "pendingMediaBlocksStudentRelease": true,
+  "exportNamePattern": "Mimi-progres-YYYY-MM-DD-HHMM.json",
+  "teacherExportNamePattern": "Mimi-acompanhamento-YYYY-MM-DD-HHMM.json",
+  "manualTransferOnly": true,
+  "privateLearnerDataInPublicRepo": false,
+  "contentVersion": "1.0.1",
+  "editorialPatch": "Gate 2B: metadados/contrato técnico corrigidos; texto PT/FR, itens e respostas preservados.",
+  "completionSource": "objective apenas para evento de conclusão do percurso; não avaliação de competência."
+}

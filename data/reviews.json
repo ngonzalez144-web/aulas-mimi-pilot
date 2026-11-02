@@ -1,0 +1,474 @@
+{
+  "schemaVersion": "1.0",
+  "courseId": "aulas-mimi",
+  "lessonId": "L001",
+  "contentVersion": "1.0.1",
+  "scheduleVersion": 1,
+  "nominalDays": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "intervalDays": [
+    1,
+    2,
+    4,
+    7,
+    16
+  ],
+  "startEvent": "first_lesson_completed",
+  "limitDistinctTargetsPerRecommendedSession": 3,
+  "dailyRecommendedSessionLimit": 1,
+  "maxAutomaticStages": 5,
+  "rules": {
+    "G1-R1": {
+      "promoteOnlyIf": {
+        "result": "correct",
+        "attemptNumber": 1,
+        "hintUsed": false,
+        "textVisible": false,
+        "translationVisible": false,
+        "modelRevealed": false,
+        "assessorPromptedAnswer": false,
+        "stimulusPresented": true
+      },
+      "advanceOnRealLocalDate": true,
+      "afterFailureHelpSkip": "same_stage_next_local_day",
+      "retryAfterFeedbackPromotes": false,
+      "replayWithoutHelpIsAllowed": true,
+      "freeEarlyReviewPromotes": false,
+      "afterStage5": "completed_until_future_objective_difficulty_reopens_stage1",
+      "humanPanelObservationsChangeLearnerSchedule": false,
+      "unknownCondition": "Ausência de campo necessário não equivale a false; impede promoção até dados suficientes."
+    }
+  },
+  "supportSemantics": {
+    "textVisible": "Texto de apoio/transcrição do estímulo, não instrução FR ou rótulos de alternativas. Qualquer consulta, mesmo depois recolhida, mantém flag true naquela tentativa.",
+    "translationVisible": "Tradução/apoio revelado do estímulo, não o idioma FR do enunciado/alternativas.",
+    "lessonPreviouslySawText": "Registrar exposição anterior conhecida; não bloquear revisão só por ter estudado texto em outro momento. Não chamar isso de primeira escuta cega.",
+    "audioOptionLabels": "Extrait A/B acompanham a opção ao embaralhar. Reordenar opção, áudio e rótulo juntos; nunca trocar somente letras.",
+    "priorSupportAcrossReload": "Suportes usados e número da tentativa persistem na sessão/atividade retomada. Reabrir não cria primeira tentativa limpa.",
+    "stimulusPresented": "Para pergunta de dois áudios, ambos reproduzidos; para sequência, ambos; para diálogo, áudio apresentado. Sem isso, guardar resposta mas não atribuir evidência auditiva nem promover. Reproduzir não prova atenção."
+  },
+  "reviews": [
+    {
+      "reviewId": "L001-D01-I001",
+      "lessonId": "L001",
+      "targetId": "I001",
+      "nominalDay": 1,
+      "stage": 1,
+      "contextFr": "Une personne se présente.",
+      "questionFr": "Que dit-elle dans cet extrait ?",
+      "stimulusAudioIds": [
+        "L001-A06"
+      ],
+      "options": [
+        {
+          "optionId": "city",
+          "labelFr": "La ville où elle habite"
+        },
+        {
+          "optionId": "name",
+          "labelFr": "Son prénom"
+        }
+      ],
+      "audioOptions": [],
+      "correctOptionId": "name",
+      "hintFr": "Écoutez « Ana » : c’est un prénom.",
+      "modelPt": "Eu me chamo Ana.",
+      "modelAudioId": "L001-A06",
+      "evidenceDimension": "recognition",
+      "promotionRuleId": "G1-R1",
+      "oralPromptFr": "Si vous le souhaitez, dites maintenant la phrase pour vous-même. Le modèle reste disponible.",
+      "oralSelfReportChoices": [
+        "tried_without_model",
+        "tried_with_model",
+        "listen_again"
+      ],
+      "oralResult": "not_assessed",
+      "onErrorOrHelp": "Conservar etapa; data devida = dia local seguinte. Acerto após feedback não promove.",
+      "onSkip": "Não avaliado; conservar etapa e oferecer no dia seguinte.",
+      "newPortugueseLexis": [],
+      "modelFr": "Je m’appelle Ana."
+    },
+    {
+      "reviewId": "L001-D01-I002",
+      "lessonId": "L001",
+      "targetId": "I002",
+      "nominalDay": 1,
+      "stage": 1,
+      "contextFr": "Mimi dit où elle habite.",
+      "questionFr": "Dans quelle ville habite-t-elle ?",
+      "stimulusAudioIds": [
+        "L001-A04"
+      ],
+      "options": [
+        {
+          "optionId": "sao_paulo",
+          "labelFr": "São Paulo"
+        },
+        {
+          "optionId": "santiago",
+          "labelFr": "Santiago"
+        }
+      ],
+      "audioOptions": [],
+      "correctOptionId": "santiago",
+      "hintFr": "Écoutez le nom à la fin de la phrase.",
+      "modelPt": "Eu moro em Santiago.",
+      "modelAudioId": "L001-A04",
+      "evidenceDimension": "comprehension",
+      "promotionRuleId": "G1-R1",
+      "oralPromptFr": "Si vous le souhaitez, dites maintenant la phrase pour vous-même. Le modèle reste disponible.",
+      "oralSelfReportChoices": [
+        "tried_without_model",
+        "tried_with_model",
+        "listen_again"
+      ],
+      "oralResult": "not_assessed",
+      "onErrorOrHelp": "Conservar etapa; data devida = dia local seguinte. Acerto após feedback não promove.",
+      "onSkip": "Não avaliado; conservar etapa e oferecer no dia seguinte.",
+      "newPortugueseLexis": [],
+      "modelFr": "J’habite à Santiago."
+    },
+    {
+      "reviewId": "L001-D03-I001",
+      "lessonId": "L001",
+      "targetId": "I001",
+      "nominalDay": 3,
+      "stage": 2,
+      "contextFr": "Vous entendez une personne sans voir son nom.",
+      "questionFr": "Comment cette personne s’appelle-t-elle ?",
+      "stimulusAudioIds": [
+        "L001-A05"
+      ],
+      "options": [
+        {
+          "optionId": "mimi",
+          "labelFr": "Mimi"
+        },
+        {
+          "optionId": "ana",
+          "labelFr": "Ana"
+        }
+      ],
+      "audioOptions": [],
+      "correctOptionId": "mimi",
+      "hintFr": "Écoutez ce qui suit « Eu me chamo ».",
+      "modelPt": "Eu me chamo Mimi.",
+      "modelAudioId": "L001-A05",
+      "evidenceDimension": "comprehension",
+      "promotionRuleId": "G1-R1",
+      "oralPromptFr": "Si vous le souhaitez, dites maintenant la phrase pour vous-même. Le modèle reste disponible.",
+      "oralSelfReportChoices": [
+        "tried_without_model",
+        "tried_with_model",
+        "listen_again"
+      ],
+      "oralResult": "not_assessed",
+      "onErrorOrHelp": "Conservar etapa; data devida = dia local seguinte. Acerto após feedback não promove.",
+      "onSkip": "Não avaliado; conservar etapa e oferecer no dia seguinte.",
+      "newPortugueseLexis": [],
+      "modelFr": "Je m’appelle Mimi."
+    },
+    {
+      "reviewId": "L001-D03-I002",
+      "lessonId": "L001",
+      "targetId": "I002",
+      "nominalDay": 3,
+      "stage": 2,
+      "contextFr": "Vous voulez dire où vous habitez.",
+      "questionFr": "Quel extrait convient pour parler de votre ville ?",
+      "stimulusAudioIds": [],
+      "options": [
+        {
+          "optionId": "name",
+          "labelFr": "Extrait A"
+        },
+        {
+          "optionId": "city",
+          "labelFr": "Extrait B"
+        }
+      ],
+      "audioOptions": [
+        {
+          "optionId": "name",
+          "audioId": "L001-A06"
+        },
+        {
+          "optionId": "city",
+          "audioId": "L001-A07"
+        }
+      ],
+      "correctOptionId": "city",
+      "hintFr": "Choisissez la phrase qui contient un nom de ville.",
+      "modelPt": "Eu moro em São Paulo.",
+      "modelAudioId": "L001-A07",
+      "evidenceDimension": "recognition",
+      "promotionRuleId": "G1-R1",
+      "oralPromptFr": "Si vous le souhaitez, dites maintenant la phrase pour vous-même. Le modèle reste disponible.",
+      "oralSelfReportChoices": [
+        "tried_without_model",
+        "tried_with_model",
+        "listen_again"
+      ],
+      "oralResult": "not_assessed",
+      "onErrorOrHelp": "Conservar etapa; data devida = dia local seguinte. Acerto após feedback não promove.",
+      "onSkip": "Não avaliado; conservar etapa e oferecer no dia seguinte.",
+      "newPortugueseLexis": [],
+      "modelFr": "J’habite à São Paulo."
+    },
+    {
+      "reviewId": "L001-D07-I001",
+      "lessonId": "L001",
+      "targetId": "I001",
+      "nominalDay": 7,
+      "stage": 3,
+      "contextFr": "Vous choisissez le début d’une présentation.",
+      "questionFr": "Quel extrait sert à dire votre prénom ?",
+      "stimulusAudioIds": [],
+      "options": [
+        {
+          "optionId": "city",
+          "labelFr": "Extrait A"
+        },
+        {
+          "optionId": "name",
+          "labelFr": "Extrait B"
+        }
+      ],
+      "audioOptions": [
+        {
+          "optionId": "city",
+          "audioId": "L001-A04"
+        },
+        {
+          "optionId": "name",
+          "audioId": "L001-A05"
+        }
+      ],
+      "correctOptionId": "name",
+      "hintFr": "Prénom : Mimi. Ville : Santiago. Réécoutez.",
+      "modelPt": "Eu me chamo Mimi.",
+      "modelAudioId": "L001-A05",
+      "evidenceDimension": "recognition",
+      "promotionRuleId": "G1-R1",
+      "oralPromptFr": "Si vous le souhaitez, dites maintenant la phrase pour vous-même. Le modèle reste disponible.",
+      "oralSelfReportChoices": [
+        "tried_without_model",
+        "tried_with_model",
+        "listen_again"
+      ],
+      "oralResult": "not_assessed",
+      "onErrorOrHelp": "Conservar etapa; data devida = dia local seguinte. Acerto após feedback não promove.",
+      "onSkip": "Não avaliado; conservar etapa e oferecer no dia seguinte.",
+      "newPortugueseLexis": [],
+      "modelFr": "Je m’appelle Mimi."
+    },
+    {
+      "reviewId": "L001-D07-I002",
+      "lessonId": "L001",
+      "targetId": "I002",
+      "nominalDay": 7,
+      "stage": 3,
+      "contextFr": "Ana reprend la parole.",
+      "questionFr": "Ana habite-t-elle à Santiago ?",
+      "stimulusAudioIds": [
+        "L001-A07"
+      ],
+      "options": [
+        {
+          "optionId": "yes",
+          "labelFr": "Oui"
+        },
+        {
+          "optionId": "no",
+          "labelFr": "Non"
+        }
+      ],
+      "audioOptions": [],
+      "correctOptionId": "no",
+      "hintFr": "La phrase se termine par « São Paulo ».",
+      "modelPt": "Eu moro em São Paulo.",
+      "modelAudioId": "L001-A07",
+      "evidenceDimension": "comprehension",
+      "promotionRuleId": "G1-R1",
+      "oralPromptFr": "Si vous le souhaitez, dites maintenant la phrase pour vous-même. Le modèle reste disponible.",
+      "oralSelfReportChoices": [
+        "tried_without_model",
+        "tried_with_model",
+        "listen_again"
+      ],
+      "oralResult": "not_assessed",
+      "onErrorOrHelp": "Conservar etapa; data devida = dia local seguinte. Acerto após feedback não promove.",
+      "onSkip": "Não avaliado; conservar etapa e oferecer no dia seguinte.",
+      "newPortugueseLexis": [],
+      "modelFr": "J’habite à São Paulo."
+    },
+    {
+      "reviewId": "L001-D14-I001",
+      "lessonId": "L001",
+      "targetId": "I001",
+      "nominalDay": 14,
+      "stage": 4,
+      "contextFr": "Ana donne deux informations.",
+      "questionFr": "Que donne-t-elle dans la première phrase ?",
+      "stimulusAudioIds": [
+        "L001-A06",
+        "L001-A07"
+      ],
+      "options": [
+        {
+          "optionId": "name",
+          "labelFr": "Son prénom"
+        },
+        {
+          "optionId": "city",
+          "labelFr": "La ville où elle habite"
+        }
+      ],
+      "audioOptions": [],
+      "correctOptionId": "name",
+      "hintFr": "Réécoutez seulement la première phrase.",
+      "modelPt": "Eu me chamo Ana.",
+      "modelAudioId": "L001-A06",
+      "evidenceDimension": "comprehension",
+      "promotionRuleId": "G1-R1",
+      "oralPromptFr": "Si vous le souhaitez, dites maintenant la phrase pour vous-même. Le modèle reste disponible.",
+      "oralSelfReportChoices": [
+        "tried_without_model",
+        "tried_with_model",
+        "listen_again"
+      ],
+      "oralResult": "not_assessed",
+      "onErrorOrHelp": "Conservar etapa; data devida = dia local seguinte. Acerto após feedback não promove.",
+      "onSkip": "Não avaliado; conservar etapa e oferecer no dia seguinte.",
+      "newPortugueseLexis": [],
+      "modelFr": "Je m’appelle Ana."
+    },
+    {
+      "reviewId": "L001-D14-I002",
+      "lessonId": "L001",
+      "targetId": "I002",
+      "nominalDay": 14,
+      "stage": 4,
+      "contextFr": "Ana dit son prénom, puis sa ville.",
+      "questionFr": "Quelle ville faut-il retenir ?",
+      "stimulusAudioIds": [
+        "L001-A06",
+        "L001-A07"
+      ],
+      "options": [
+        {
+          "optionId": "santiago",
+          "labelFr": "Santiago"
+        },
+        {
+          "optionId": "sao_paulo",
+          "labelFr": "São Paulo"
+        }
+      ],
+      "audioOptions": [],
+      "correctOptionId": "sao_paulo",
+      "hintFr": "Réécoutez la deuxième phrase.",
+      "modelPt": "Eu moro em São Paulo.",
+      "modelAudioId": "L001-A07",
+      "evidenceDimension": "comprehension",
+      "promotionRuleId": "G1-R1",
+      "oralPromptFr": "Si vous le souhaitez, dites maintenant la phrase pour vous-même. Le modèle reste disponible.",
+      "oralSelfReportChoices": [
+        "tried_without_model",
+        "tried_with_model",
+        "listen_again"
+      ],
+      "oralResult": "not_assessed",
+      "onErrorOrHelp": "Conservar etapa; data devida = dia local seguinte. Acerto após feedback não promove.",
+      "onSkip": "Não avaliado; conservar etapa e oferecer no dia seguinte.",
+      "newPortugueseLexis": [],
+      "modelFr": "J’habite à São Paulo."
+    },
+    {
+      "reviewId": "L001-D30-I001",
+      "lessonId": "L001",
+      "targetId": "I001",
+      "nominalDay": 30,
+      "stage": 5,
+      "contextFr": "Vous cherchez Ana pour lui parler. Écoutez cette autre personne.",
+      "questionFr": "Est-ce Ana qui se présente ?",
+      "stimulusAudioIds": [
+        "L001-A05"
+      ],
+      "options": [
+        {
+          "optionId": "yes",
+          "labelFr": "Oui"
+        },
+        {
+          "optionId": "no",
+          "labelFr": "Non"
+        }
+      ],
+      "audioOptions": [],
+      "correctOptionId": "no",
+      "hintFr": "Écoutez le prénom à la fin.",
+      "modelPt": "Eu me chamo Mimi.",
+      "modelAudioId": "L001-A05",
+      "evidenceDimension": "comprehension",
+      "promotionRuleId": "G1-R1",
+      "oralPromptFr": "Si vous le souhaitez, dites maintenant la phrase pour vous-même. Le modèle reste disponible.",
+      "oralSelfReportChoices": [
+        "tried_without_model",
+        "tried_with_model",
+        "listen_again"
+      ],
+      "oralResult": "not_assessed",
+      "onErrorOrHelp": "Conservar etapa; data devida = dia local seguinte. Acerto após feedback não promove.",
+      "onSkip": "Não avaliado; conservar etapa e oferecer no dia seguinte.",
+      "newPortugueseLexis": [],
+      "modelFr": "Je m’appelle Mimi."
+    },
+    {
+      "reviewId": "L001-D30-I002",
+      "lessonId": "L001",
+      "targetId": "I002",
+      "nominalDay": 30,
+      "stage": 5,
+      "contextFr": "Vous êtes à Santiago et écoutez cette personne.",
+      "questionFr": "Habite-t-elle dans la même ville que vous ?",
+      "stimulusAudioIds": [
+        "L001-A04"
+      ],
+      "options": [
+        {
+          "optionId": "no",
+          "labelFr": "Non"
+        },
+        {
+          "optionId": "yes",
+          "labelFr": "Oui"
+        }
+      ],
+      "audioOptions": [],
+      "correctOptionId": "yes",
+      "hintFr": "Votre ville est Santiago. Réécoutez la ville de la personne.",
+      "modelPt": "Eu moro em Santiago.",
+      "modelAudioId": "L001-A04",
+      "evidenceDimension": "comprehension",
+      "promotionRuleId": "G1-R1",
+      "oralPromptFr": "Si vous le souhaitez, dites maintenant la phrase pour vous-même. Le modèle reste disponible.",
+      "oralSelfReportChoices": [
+        "tried_without_model",
+        "tried_with_model",
+        "listen_again"
+      ],
+      "oralResult": "not_assessed",
+      "onErrorOrHelp": "Conservar etapa; data devida = dia local seguinte. Acerto após feedback não promove.",
+      "onSkip": "Não avaliado; conservar etapa e oferecer no dia seguinte.",
+      "newPortugueseLexis": [],
+      "modelFr": "J’habite à Santiago."
+    }
+  ],
+  "editorialPatch": "Gate 2B: metadados/contrato técnico corrigidos; texto PT/FR, itens e respostas preservados."
+}

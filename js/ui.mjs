@@ -1,0 +1,6 @@
+export function el(tag,attrs={},...children){const n=document.createElement(tag);for(const[k,v]of Object.entries(attrs)){if(k==='on')for(const[event,fn]of Object.entries(v))n.addEventListener(event,fn);else if(k==='class')n.className=v;else if(k==='text')n.textContent=v;else if(v!==null&&v!==undefined)n.setAttribute(k,String(v));}for(const c of children.flat(Infinity)){if(c!==null&&c!==undefined)n.append(c instanceof Node?c:document.createTextNode(String(c)));}return n;}
+export const button=(label,fn,style='secondary')=>el('button',{type:'button',class:style,on:{click:fn}},label);
+export function download(name,value){const b=new Blob([JSON.stringify(value,null,2)],{type:'application/json;charset=utf-8'}),u=URL.createObjectURL(b),a=el('a',{href:u,download:name});document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),5000);}
+export async function data(){const paths=['L001.json','reviews.json','audio-manifest.json','flow.json'];return Promise.all(paths.map(async p=>{const r=await fetch('data/'+p);if(!r.ok)throw Error('Le contenu ne peut pas être chargé. Réessayez.');return r.json();}));}
+export const message=(text,error=false)=>el('div',{class:'notice'+(error?' error':''),role:error?'alert':'status'},text);
+export function heading(n,title){return [el('p',{class:'eyebrow'},n),el('h1',{},title)];}

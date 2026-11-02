@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "1.0",
+  "courseId": "aulas-mimi",
+  "lessonId": "L001",
+  "contentVersion": "1.0.1",
+  "contentStatus": "editorially_approved_audio_pending",
+  "readyForStudent": false,
+  "titleFr": "Dire son prénom et sa ville",
+  "phase": "receptive_with_supported_retrieval",
+  "targetIds": [
+    "I001",
+    "I002"
+  ],
+  "estimatedMinutes": {
+    "min": 10,
+    "max": 15,
+    "status": "hypothesis_to_validate",
+    "noVisibleTimer": true
+  },
+  "objectiveFr": "Commencer à comprendre une courte présentation et essayer de dire votre prénom et votre ville.",
+  "firstContactFr": "Écoutez cette courte conversation. Vous n’avez pas besoin de tout comprendre. Vous pouvez afficher le texte quand vous le souhaitez.",
+  "secondListeningFr": "Réécoutez avec le texte si vous le souhaitez. Ana et Mimi disent leur prénom et la ville où elles habitent. Vous pouvez répéter une phrase, sans vous presser.",
+  "speakers": [
+    {
+      "speakerId": "ana",
+      "displayName": "Ana",
+      "fictional": true
+    },
+    {
+      "speakerId": "mimi",
+      "displayName": "Mimi",
+      "voiceIsActualLearner": false,
+      "biographicalClaims": [
+        "prénom d’usage Mimi",
+        "ville Santiago"
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "lineId": "L001-D01",
+      "speakerId": "ana",
+      "pt": "Oi! Eu me chamo Ana.",
+      "fr": "Salut ! Je m’appelle Ana.",
+      "audioId": "L001-A01"
+    },
+    {
+      "lineId": "L001-D02",
+      "speakerId": "mimi",
+      "pt": "Oi! Eu me chamo Mimi.",
+      "fr": "Salut ! Je m’appelle Mimi.",
+      "audioId": "L001-A02"
+    },
+    {
+      "lineId": "L001-D03",
+      "speakerId": "ana",
+      "pt": "Eu moro em São Paulo. E você?",
+      "fr": "J’habite à São Paulo. Et toi ?",
+      "audioId": "L001-A03"
+    },
+    {
+      "lineId": "L001-D04",
+      "speakerId": "mimi",
+      "pt": "Eu moro em Santiago.",
+      "fr": "J’habite à Santiago.",
+      "audioId": "L001-A04"
+    }
+  ],
+  "fullAudioId": "L001-A00",
+  "targets": [
+    {
+      "targetId": "I001",
+      "type": "structure",
+      "formPt": "Eu me chamo…",
+      "meaningFr": "Dire son prénom : « Je m’appelle… »",
+      "function": "Apresentar o nome pelo qual quer ser chamada.",
+      "examplePt": "Eu me chamo Mimi.",
+      "hintFr": "Pensez à votre prénom. Le début est « Eu me… »",
+      "modelPt": "Eu me chamo Mimi.",
+      "modelAudioId": "L001-A05",
+      "usageFr": "Pour dire votre prénom : « Eu me chamo… », puis votre prénom. Écoutez l’expression entière. Vous n’avez pas besoin d’apprendre une conjugaison.",
+      "possibleDifficulties": [
+        "Lembrar o bloco inteiro, inclusive me; não exigir recordação imediata.",
+        "Ouvir chamo como unidade, sem transformar a escrita em teste de fonética."
+      ],
+      "pronunciationNote": "Apoiar a escuta de CHA-mo; ch não precisa de vogal extra. Priorizar inteligibilidade.",
+      "frInterferenceHypothesis": "Je m’appelle pode facilitar o sentido e sugerir bloco reflexivo; a ordem/presença dos pronomes precisa ser ouvida, não traduzida palavra por palavra. Não presumir erro.",
+      "esInterferenceHypothesis": "Me llamo pode facilitar o sentido; eventual substituição de chamo por llamo é hipótese a observar, não erro já detectado.",
+      "acceptedCommunicativeAlternatives": [
+        "Meu nome é Mimi.",
+        "Eu sou Mimi.",
+        "Me chamo Mimi."
+      ],
+      "modelFr": "Je m’appelle Mimi."
+    },
+    {
+      "targetId": "I002",
+      "type": "structure",
+      "formPt": "Eu moro em…",
+      "meaningFr": "Dire la ville où l’on habite : « J’habite à… »",
+      "function": "Dizer onde mora, usando Santiago nesta lição.",
+      "examplePt": "Eu moro em Santiago.",
+      "hintFr": "Pensez à votre ville. Le début est « Eu moro… »",
+      "modelPt": "Eu moro em Santiago.",
+      "modelAudioId": "L001-A04",
+      "usageFr": "Pour dire où vous habitez : « Eu moro em Santiago. » Dans cette leçon, retenez cette phrase. Avec un autre lieu, le petit mot peut changer ; nous le verrons plus tard.",
+      "possibleDifficulties": [
+        "Recuperar moro sem buscar uma tradução palavra por palavra.",
+        "Ligar moro em sem exigir que ela explique cada som ou preposição."
+      ],
+      "pronunciationNote": "Ouvir MO-ro em como uma sequência; a maior força está em MO. Não exigir um único tipo regional de r.",
+      "frInterferenceHypothesis": "Habiter e à não se traduzem mecanicamente palavra por palavra; eu habito em pode comunicar e não deve ser tratado automaticamente como erro.",
+      "esInterferenceHypothesis": "Vivo en pode levar a en no lugar de em; registrar somente se observado. Vivo em é português válido, não falha de comunicação.",
+      "acceptedCommunicativeAlternatives": [
+        "Moro em Santiago.",
+        "Eu vivo em Santiago.",
+        "Eu habito em Santiago."
+      ],
+      "modelFr": "J’habite à Santiago."
+    }
+  ],
+  "incidentalLanguage": [
+    {
+      "pt": "Oi!",
+      "fr": "Salut !",
+      "assessmentRequired": false
+    },
+    {
+      "pt": "E você?",
+      "fr": "Et toi ?",
+      "assessmentRequired": false
+    },
+    {
+      "pt": "Ana / São Paulo",
+      "fr": "Prénom et ville du personnage Ana.",
+      "assessmentRequired": false
+    }
+  ],
+  "prepositionScopeFr": "« Em » convient avec Santiago et São Paulo ici. Cette leçon ne donne pas une règle pour tous les noms de lieux.",
+  "pronunciationFr": [
+    {
+      "targetId": "I001",
+      "text": "Dans « chamo », écoutez surtout le début « cha ». Répétez seulement si vous en avez envie.",
+      "audioId": "L001-A05"
+    },
+    {
+      "targetId": "I002",
+      "text": "Écoutez « moro em » d’un seul mouvement. Vous n’avez pas besoin de copier exactement l’accent de la voix.",
+      "audioId": "L001-A04"
+    }
+  ],
+  "spanishNoteToLearner": null,
+  "activities": [
+    {
+      "activityId": "L001-REC01",
+      "type": "recognition",
+      "targetIds": [
+        "I001"
+      ],
+      "instructionFr": "Écoutez les deux extraits. Lequel sert à dire son prénom ?",
+      "contextFr": "Deux petits extraits de la conversation.",
+      "audioOptions": [
+        {
+          "optionId": "name",
+          "labelFr": "Extrait A",
+          "audioId": "L001-A06"
+        },
+        {
+          "optionId": "city",
+          "labelFr": "Extrait B",
+          "audioId": "L001-A07"
+        }
+      ],
+      "correctOptionId": "name",
+      "hintFr": "Le prénom est Ana. Réécoutez les deux extraits.",
+      "modelPt": "Eu me chamo Ana.",
+      "modelAudioId": "L001-A06",
+      "evidenceDimension": "recognized",
+      "evidenceLimit": "Identifie la fonction de l’expression parmi deux extraits; ne démontre ni rappel ni production.",
+      "defaultTranscriptVisible": false,
+      "feedback": {
+        "correctFr": "Oui. Écoutez encore si vous le souhaitez.",
+        "incorrectFr": "Réécoutez l’extrait. Vous pouvez afficher le modèle, puis essayer encore.",
+        "skipFr": "Vous pourrez y revenir. Continuons tranquillement."
+      },
+      "modelFr": "Je m’appelle Ana."
+    },
+    {
+      "activityId": "L001-COMP01",
+      "type": "comprehension",
+      "targetIds": [
+        "I002"
+      ],
+      "instructionFr": "Écoutez la conversation. Où habite Ana ?",
+      "contextFr": "Ana et Mimi parlent de la ville où elles habitent.",
+      "stimulusAudioIds": [
+        "L001-A00"
+      ],
+      "options": [
+        {
+          "optionId": "santiago",
+          "label": "Santiago"
+        },
+        {
+          "optionId": "sao_paulo",
+          "label": "São Paulo"
+        }
+      ],
+      "correctOptionId": "sao_paulo",
+      "hintFr": "Écoutez la phrase d’Ana juste avant « E você ? »",
+      "modelPt": "Eu moro em São Paulo.",
+      "modelAudioId": "L001-A07",
+      "evidenceDimension": "understood",
+      "evidenceLimit": "Comprend une information de lieu associée à Ana dans ce dialogue familier; pas compréhension générale ni production.",
+      "defaultTranscriptVisible": false,
+      "feedback": {
+        "correctFr": "Oui. Écoutez encore si vous le souhaitez.",
+        "incorrectFr": "Réécoutez l’extrait. Vous pouvez afficher le modèle, puis essayer encore.",
+        "skipFr": "Vous pourrez y revenir. Continuons tranquillement."
+      },
+      "modelFr": "J’habite à São Paulo."
+    },
+    {
+      "activityId": "L001-RET01",
+      "type": "retrieval",
+      "targetIds": [
+        "I001",
+        "I002"
+      ],
+      "instructionFr": "À votre rythme, dites votre prénom, puis la ville où vous habitez. Si vous le souhaitez, commencez sans regarder le modèle.",
+      "hintFr": "Votre prénom, puis votre ville. Vous pouvez afficher le modèle.",
+      "modelPt": "Eu me chamo Mimi. Eu moro em Santiago.",
+      "modelAudioIds": [
+        "L001-A05",
+        "L001-A04"
+      ],
+      "choices": [
+        {
+          "choiceId": "tried_without_model",
+          "labelFr": "J’ai essayé sans modèle"
+        },
+        {
+          "choiceId": "tried_with_model",
+          "labelFr": "J’ai essayé avec le modèle"
+        },
+        {
+          "choiceId": "listen_again",
+          "labelFr": "Je préfère réécouter"
+        }
+      ],
+      "result": "not_assessed",
+      "source": "self_report",
+      "evidenceDimension": null,
+      "evidenceLimit": "Déclaration de tentative uniquement; pas de reconnaissance automatique de la parole.",
+      "feedbackFr": "Votre tentative a été notée. Vous pouvez réécouter ou continuer.",
+      "defaultModelVisible": false,
+      "modelFr": "Je m’appelle Mimi. J’habite à Santiago."
+    }
+  ],
+  "closing": {
+    "alwaysFr": "Séance terminée.",
+    "lessonCompletionFr": "Vous avez terminé la leçon 1.",
+    "objectiveTemplateFr": "Réponses correctes au premier essai : {correct} sur {answered}.",
+    "objectiveTemplateRule": "Mostrar apenas se answered > 0; denominador de primeiras respostas objetivas enviadas, não tentativas posteriores nem fala. Exibir aide utilisée si houve apoio; se skipped > 0, indicar também perguntas não respondidas. Não somar recognition + comprehension como domínio.",
+    "oralTemplateFr": "Vous avez essayé de dire votre prénom et votre ville.",
+    "oralTemplateRule": "Somente se choiceId começa tried_; listen_again não prova tentativa oral.",
+    "noAssessmentFr": "Vous avez écouté et parcouru la leçon.",
+    "noAssessmentRule": "Só dizer écouté se houver reprodução; senão usar Vous avez parcouru la leçon.",
+    "reviewFr": "Une petite révision vous sera proposée à partir de demain.",
+    "reviewRule": "Somente depois de lesson_completed persistido; data devida D+1 local.",
+    "saveFailureFr": "La séance n’a pas pu être enregistrée. Gardez cette page ouverte et enregistrez une copie si possible."
+  },
+  "scheduleVersion": 1,
+  "copyright": "Diálogo e atividades originais preparados para Aulas Mimi; permissão da voz real ainda pendente.",
+  "editorialPatch": "Gate 2B: metadados/contrato técnico corrigidos; texto PT/FR, itens e respostas preservados."
+}
